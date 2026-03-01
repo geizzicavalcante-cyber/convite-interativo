@@ -11,15 +11,17 @@ Explore seções interativas, como Sugestões de Presentes, com imagens e inform
 
 Navegue entre telas de forma animada, proporcionando uma experiência moderna e dinâmica ✨
 
+Troque o tema do convite diretamente na raiz do projeto, ajustando cores e estilos rapidamente 🎨
+
 ⚠️ Aviso: Este projeto está em fase inicial e em desenvolvimento. Ainda existem muitas funcionalidades e melhorias planejadas, como animações mais elaboradas, integração com redes sociais e personalizações adicionais.
 
 Diferenciais do Projeto
 
 ✔️ Botão “Abrir Convite”
 
-✔️ Animações simples e elegantes
+✔️ Sistema de troca de tema via variáveis CSS na raiz do projeto
 
-✔️ Sistema de tema personalizável usando variáveis CSS
+✔️ Animações simples e elegantes
 
 ✔️ Layout responsivo, funcionando em desktops e dispositivos móveis
 
@@ -32,6 +34,8 @@ O usuário abre o convite
 Pode voltar para a tela inicial
 
 Pode abrir o convite novamente quantas vezes desejar
+
+Pode alterar o tema do convite usando a funcionalidade disponível
 
 Interações possuem animações suaves para melhorar a experiência
 
@@ -46,6 +50,8 @@ JavaScript – Interatividade e controle do fluxo do convite
 Funcionalidades
 
 Tela inicial com botão “Abrir Convite”
+
+Troca de tema via variáveis CSS
 
 Animação suave de transição entre telas
 
