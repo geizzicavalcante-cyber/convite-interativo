@@ -1,0 +1,5 @@
+:root {
+  --cor-primaria: #ff3399;  /* rosa */
+  --cor-secundaria: #3399ff; /* azul */
+  --fundo: linear-gradient(135deg, #fff5cc, #ffe680);
+}

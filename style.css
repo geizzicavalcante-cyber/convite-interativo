@@ -1,0 +1,181 @@
+/* ===== Reset ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #f8e1f4, #e0c3fc);
+}
+
+/* ===== Tela Inicial ===== */
+#telaInicial {
+  height: 100vh;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee, #fddb92);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Título */
+.titulo-unicornio {
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+/* Botão abrir */
+#btnAbrir {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  color: #ff66c4;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 2;
+}
+
+#btnAbrir:hover {
+  transform: scale(1.1);
+}
+
+/* Arco-íris decorativo */
+.arco-iris {
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150%;
+  height: 60%;
+  border-radius: 50% 50% 0 0;
+  background: linear-gradient(
+    to top,
+    #ff6b6b,
+    #ffa94d,
+    #ffd43b,
+    #69db7c,
+    #4dabf7,
+    #9775fa,
+    #f06595
+  );
+  opacity: 0.3;
+  filter: blur(20px);
+}
+
+/* ===== Conteúdo Principal ===== */
+#conteudo {
+  display: none; /* começa escondido */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8e1f4, #e0c3fc);
+}
+
+/* Caixa central */
+.caixa {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #d63384;
+}
+
+/* Texto */
+p {
+  color: #555;
+}
+
+/* Botões padrão */
+button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Botão voltar */
+#btnVoltar {
+  background: transparent;
+  color: #d63384;
+  font-weight: bold;
+}
+/* ===== Área de Botões ===== */
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Botões em formato de link */
+.botao-link {
+  text-decoration: none;
+  background-color: #d63384;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: bold;
+  max-width: 250px;   /* limite máximo */
+  width: 100%;
+  text-align: center;
+}
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centraliza os botões */
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.botao-link:hover {
+  transform: scale(1.05);
+  background-color: #c2186a;
+}
+
+/* Container dos cards */
+.cards-presentes {
+  display: flex !important;
+  justify-content: space-between; /* espaço uniforme entre todos os cards */
+  flex-wrap: nowrap;               /* mantém todos na mesma linha */
+  width: 300px;                    /* largura total do container, ajuste se precisar */
+  margin: 0 auto;                  /* centraliza o container na tela */
+  gap: 0;                          /* o space-between já controla o espaçamento */
+}
+
+/* Todos os cards com a mesma largura */
+.cards-presentes .card {
+  width: 90px;                      /* mesmo tamanho do card que a imagem */
+  text-align: center;
+}
+
+/* Padroniza as imagens */
+.cards-presentes .card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
