@@ -1,5 +1,4 @@
-Convite Interativo – Doce Mania Confeitaria Artesanal
-Descrição
+Landing-page-convite-interativo
 
 Este projeto consiste em um convite interativo online, desenvolvido para aniversários e eventos, focando em experiências visuais e auditivas. Ele permite que o usuário:
 
